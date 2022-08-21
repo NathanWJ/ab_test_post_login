@@ -1,6 +1,9 @@
 # Created by https://www.toptal.com/developers/gitignore/api/python
 # Edit at https://www.toptal.com/developers/gitignore?templates=python
 
+#Ignoring config file on future updates due to local machine configuration
+flas_app/config/*
+
 ### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
