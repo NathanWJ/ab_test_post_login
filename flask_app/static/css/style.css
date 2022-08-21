@@ -1,0 +1,44 @@
+.hero-container {
+    margin-top: 5px;
+    border-bottom: 1px solid #B0B0B0;
+}
+
+.form-container {
+    margin: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #B0B0B0;
+}
+
+.form-group {
+    margin: 10px;
+}
+
+.error-message {
+    color: red;
+}
+
+.home-hero {
+    margin: 10px;
+    padding: 20px;
+}
+
+.btn-hero {
+    color: white;
+    background-color: black;
+}
+
+#experiment-TreatmentA {
+    color: white;
+    background-color: red;
+}
+
+#experiment-TreatmentB {
+    color: white;
+    background-color: blue;
+}
+
+#experiment-TreatmentC {
+    color: white;
+    background-color: green;
+}
+

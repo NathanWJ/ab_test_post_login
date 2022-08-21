@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="static/css/bootstrap.css" >
+        <link rel="stylesheet" type="text/css" href="static/css/style.css">
+        <title>Experiment</title>
+    </head>
+    <body>
+    <div class="container">
+        
+        <div class="navbar navbar-default" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <span class="navbar-brand">NJ's Site</span>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">FPO Link</a></li>
+                    <li><a href="#">FPO Link</a></li>
+                    <li><a href="#">FPO Link</a></li>
+                    <li><a href="#">FPO Link</a></li>
+                    <li><a href="#">FPO Link</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="experiment-{{experiments.treatment}}" class="row home-hero">
+            <div class="col-xs-12 text-center">
+                <h1>Congrats {{user.username}},</h1>
+                <h1>You're in {{experiments.treatment}}</h1>
+                <a type="button" class="btn btn-hero" href="/logout">Try Again</a>
+            </div>
+        </div>
+
+        <div class="row text-center">
+            <div class="col-xs-12 hidden-xs">
+                <h3>Now that you know your test results, checkout this responsive design using Bootstrap.</h3>
+            </div>
+            
+            <div class="col-xs-12 visible-xs">
+                <h3>Checkout this responsive design!</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-6 text-center">
+                <p>Left column stays on all devices.</p>
+            </div>
+            <div class="col-xs-6 text-center">
+                <p>Right column stays on all devices.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <p>Show 1 per row on mobile, 2 for tablets, or 4 if bigger.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <p>Show 1 per row on mobile, 2 for tablets, or 4 if bigger.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <p>Show 1 per row on mobile, 2 for tablets, or 4 if bigger.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <p>Show 1 per row on mobile, 2 for tablets, or 4 if bigger.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="static/js/bootstrap.js"></script>
+    </body>
+</html>
